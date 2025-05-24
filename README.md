@@ -30,4 +30,32 @@ This approach provides a comprehensive workflow from HDL coding to deployment on
 
 ### Setup Instructions
 
-1. Clone this repository:
+1. Clone this repository
+2. Open the relevant Verilog files in your preferred FPGA development environment.
+3. Run simulations using the provided testbenches to verify functionality.
+4. Synthesize the design and generate the bitstream for your FPGA board.
+5. Upload the bitstream to your FPGA and test the circuit in real time.
+
+## Repository Structure
+
+- `/src` — Contains Verilog source files for various digital circuits.
+- `/testbench` — Testbench files for simulation and verification.
+- `/docs` — Documentation and reports (if available).
+- `/constraints` — FPGA board-specific constraint files (if applicable).
+
+## Contributing
+
+Contributions are welcome! If you have improvements or new digital circuit designs to add, feel free to fork the repository and submit a pull request.
+
+## License
+
+This project is open-source. Refer to the `LICENSE` file for details.
+
+## Acknowledgments
+
+This project serves as a practical bridge between theoretical digital circuit design and hands-on FPGA implementation, supporting both educational and prototyping purposes.
+
+---
+
+> “This project designs and implements digital circuits in Verilog, verifies them via simulation, synthesizes and maps them onto an FPGA, and tests the design in real time, bridging theory and practical hardware use.”
+
